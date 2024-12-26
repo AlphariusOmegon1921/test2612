@@ -15,7 +15,7 @@ function duzinaZadnjegStringa(string) {
   const rijeci = string
     .trim()
     .split(" ")
-    .filter((word) => word !== "");
+    .filter((rijec) => rijec !== "");
 
   return rijeci[rijeci.length - 1].length;
 }
