@@ -10,11 +10,11 @@ const separator = "-";
 let rijeci = ["Sings", "like", "Thunder"];
 const separator = "-";
 
-function saSeparatorom(arr, separator) {
+function saSeparatorom(rijeci, separator) {
   let spojeno = "";
-  arr.forEach((rijec, index) => {
+  rijeci.forEach((rijec, index) => {
     spojeno += rijec;
-    if (index < arr.length - 1) {
+    if (index < rijeci.length - 1) {
       spojeno += separator;
     }
   });
